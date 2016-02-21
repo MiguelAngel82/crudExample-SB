@@ -1,8 +1,8 @@
 package com.example.controller.admin;
 
-import com.therealdanvega.domain.Post;
-import com.therealdanvega.service.AuthorService;
-import com.therealdanvega.service.PostService;
+import com.example.domain.Post;
+import com.example.service.AuthorService;
+import com.example.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
