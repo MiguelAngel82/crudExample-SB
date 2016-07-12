@@ -9,7 +9,7 @@ This project includes 7 brances. In each branch configuration or functionality i
  - **controller** branch: the controllers are added in this branch.
  - **service** branch: services an repositories are added.
  - **view** branch : views wit Thymeleaf are created in this branch. Also, a `DataLoader` class is created, to add default data in aplication's startup.
- - security branch: security is configured and "thymeleaf-extras-springsecurity4" is added.
+ - **security** branch: security is configured and "thymeleaf-extras-springsecurity4" is added.
 
 So this project contains:
 
@@ -55,7 +55,7 @@ So this project contains:
  - `PostService`. Contaisn all the business logic about post: 
 	 - `getLatestPost`: gets the first post order by "postedOn", descending.
 	 - `list`: gets all posts order by "postedOn", descending.
-	 - `getBySlug`: get a post by slug.
+	 - `getBySlug`: gets a post by slug.
 	 - `listByAuthor`: gets all posts by author and order by "postedOn", descending. 
 	 - `get`: gets a post by id.
 	 - `save`: saves the post given.
